@@ -2,6 +2,7 @@
 
 ## Overview
 Analysis of **OCEAN** (Big Five) personality traits, focusing on **Openness** differences across racial groups. Conducted using non-parametric methods on Likert-scale survey data from [OpenPsychometrics.org](https://openpsychometrics.org/_rawdata/).
+Please notice that some of the calculations belong to the presentation, but do not have a part in the final project.
 
 ## Dataset
 - **File:** `data.csv` (TSV, 19719 rows, 57 columns)
@@ -9,9 +10,9 @@ Analysis of **OCEAN** (Big Five) personality traits, focusing on **Openness** di
 - **Traits:** 10 items each for Extraversion (E), Neuroticism (N), Agreeableness (A), Conscientiousness (C), Openness (O)  
   Scale: 1–5 Likert
 
-## Notebook
+## Instructions
 - **File:** `statistical_theory(M).ipynb`
-- Loads and cleans data, computes trait scores, performs Kruskal–Wallis and post-hoc tests, and visualizes distributions.
-- **Important:** Update this line if `data.csv` is stored elsewhere:
+- **Loading data:** To upload `data.csv` you may update the following line of code, which appears below the imports part:
   ```python
   df_og = pd.read_csv("data.csv", sep='\t')
+  ```
